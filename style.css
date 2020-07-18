@@ -1,0 +1,399 @@
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Argon
+Description: A two-column, fixed-width design with a dark color scheme.
+Version    : 1.0
+Released   : 20120529
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #FFF;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	background: black url(images/bg.jpg) top center no-repeat;
+	background-size: 100%;
+	line-height: 1.75em;
+	color: #CCB7C0;
+	font-size: 12pt;
+}
+
+body,input {
+	font-family: Arial, sans-serif;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+strong {
+	color: #FFF;
+}
+
+h1,h2,h4 {
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+h2,h3,h4 {
+	color: #FFF;
+	font-family: Abel, sans-serif;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+img.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+.box {
+	margin-bottom: 3em;
+}
+
+#content {
+	padding: 0;
+	width: 765px;
+	float: left;
+}
+
+#footer {
+	text-align: center;
+	margin: 40px 0 80px 0;
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+}
+
+
+
+#header ,#footer {
+	padding: 45px;
+	position: relative;
+	height: 140px;
+	margin-bottom: 10px;
+}
+
+#logo {
+	line-height: 168px;
+	left: px;
+	height: 168px;
+	top: 80px;
+	position: absolute;
+	text-shadow: 1px 1px 1px #000;
+	z-index: 9999;
+}
+
+#logo a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#logo h1 {
+	font-family: Lobster, script;
+	font-size: 3em;
+	display: inline;
+	margin-right: 0.25em;
+}
+
+#logo span {
+	color: #B294A0;
+}
+
+#menu {
+	position: absolute;
+	bottom: 0;
+	left: 0px;
+	font-family: Abel, sans-serif;
+	margin: 0 0 0 0;
+	height: 100px;
+	background:  rgba(0,0,0,0.2);
+	width: 1090px;
+	padding: 0 45px 0 45px;
+	line-height: 70px;
+	text-shadow: 1px 1px 0px #FFF;
+	border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	-moz-border-radius: 10px 10px 0px 0px;
+	-ms-border-radius: 10px 10px 0px 0px;
+	-o-border-radius: 10px 10px 0px 0px;
+}
+
+#menu a {
+	text-decoration: none;
+	font-size: 1.5em;
+	text-transform: lowercase;
+	color: #000;
+}
+
+#menu ul {
+	list-style: none;
+	margin-left: 240px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#menu ul li {
+	padding: 13px 15px 10px 15px;
+	margin-right: 10px;
+	display: inline;
+}
+
+#menu ul li.first {
+	padding-left: 0;
+}
+
+#menu .current_page_item {
+	background: rgba(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 13px 15px 10px 15px !important;
+	border-top: solid 1px rgba(0,0,0,0.2);
+	border-bottom: solid 1px #fff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
+#page {
+	width: 1090px;
+	padding: 45px 45px 0 45px;
+	position: relative;
+	background: rgba(0, 0, 0, 0.2);
+	margin: 0;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+	height: 270vh;
+}
+
+#page .section-list {
+	padding-left: 0;
+	list-style: none;
+}
+
+#page .section-list li {
+	padding: 30px 0 30px 0;
+	clear: both;
+}
+
+#page ul {
+	list-style: none;
+}
+
+#page-bottom {
+	width: 1090px;
+	padding: 45px 45px 30px 45px;
+	color: #444;
+	background: rgba(0,0,0,0.3);
+	position: relative;
+	margin-top: 10px;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+	border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-ms-border-radius: 0px 0px 10px 10px;
+	-o-border-radius: 0px 0px 10px 10px;
+}
+
+#page-bottom a {
+	color: #212121;
+}
+
+#page-bottom h2, #page-bottom h3, #page-bottom h4 {
+	color: #000;
+}
+
+#page-bottom ul {
+	list-style: none;
+}
+
+#page-bottom-content {
+	width: 765px;
+	float: left;
+}
+
+#page-bottom-sidebar {
+	margin: 0 0 0 790px;
+	width: 300px;
+}
+
+#box1 {
+	width: 370px;
+	float: left;
+	overflow: hidden;
+}
+
+#box2 {
+	width: 370px;
+	overflow: hidden;
+	margin: 0 0 0 395px;
+}
+
+#search input.form-submit {
+	font-family: Abel, sans-serif;
+	background: #FFF;
+	color: #000;
+	margin-left: 1em;
+	border: 0;
+	padding: 10px;
+}
+
+#search input.form-text {
+	padding: 10px;
+	border: dashed 1px #4A3A48;
+}
+
+#sidebar {
+	margin-top: 90px;
+	margin: 0 0 0 790px;
+	width: 300px;
+	
+}
+
+#wrapper {
+	width: 1180px;
+	position: relative;
+	margin: 0 auto 0 auto;
+}
+.photographe{
+	width: 1000px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 50px;
+	margin-left: 50px;
+	
+}
+@media (max-width : 500px){
+	
+}
+.photographe p{
+	padding-left: 60px;
+	font-style: italic;
+	font-weight: 500;
+	font-size: 18px;
+	color: white;
+	background: rgba(0,0,0,0.4);
+	height: 180px;
+	padding: 60px;
+}
+.photographe img{
+	height: 300px;
+}
+.blog-posts{
+	width: 800px;
+
+	padding: 20px;
+	margin-left: 140px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	cursor: pointer;
+}
+.post{
+	width: calc(33% - 10px);
+	overflow: hidden;
+	
+}
+.post-img{
+	width: 100%;
+	border-radius: 6px;
+	transition: .3s linear;
+	-webkit-border-radius:;
+	-moz-border-radius:;
+	-ms-border-radius:;
+	-o-border-radius:;
+	-webkit-transition:;
+	-moz-transition:;
+	-ms-transition:;
+	-o-transition:;
+}
+.post-content{
+	background-color: black;
+	margin: 0 20px;
+	padding: 30px;
+	border-radius: 6px;
+	transform: translateY(-60px);
+	transition: .3s linear;
+	-webkit-transform:;
+	-moz-transform:;
+	-ms-transform:;
+	-o-transform:;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+	-ms-transition: .3s linear;
+	-o-transition: .3s linear;
+}
+.post-content h3{
+	color: lightgoldenrodyellow;
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+.date{
+	font-size: 15px;
+	font-style: italic;
+	color: rgb(202, 29, 188);
+}
+.post:hover .post-img{
+	transform: translateY(20px);
+	-webkit-transform:;
+	-moz-transform:;
+	-ms-transform:;
+	-o-transform:;
+}
+.post:hover .post-content{
+	transform: translateY(-80px);
+	-webkit-transform:;
+	-moz-transform:;
+	-ms-transform:;
+	-o-transform:;
+}
+
+
+@media screen and (max-width: 1200px){
+	.blog-posts{
+		justify-content: center;
+	}
+	.post{
+		width: min(600px, 100%);
+	}
+}
